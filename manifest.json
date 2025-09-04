@@ -1,1 +1,9 @@
-
+{
+  "id": "com.jiwon.echarts.globe",
+  "name": "ECharts Globe",
+  "description": "Globe visualization using ECharts-GL",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "url": "https://jiwon.github.io/sac-echarts-globe/webcomponent.js",
+  "ignoreIntegrity": true
+}
