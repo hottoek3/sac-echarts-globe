@@ -3,7 +3,7 @@
   "name": "ECharts Globe",
   "description": "Globe visualization using ECharts-GL",
   "version": "1.0.0",
-  "icon": "icon.png",
-  "url": "https://jiwon.github.io/sac-echarts-globe/webcomponent.js",
+  "icon": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/icon.png",
+  "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js",
   "ignoreIntegrity": true
 }
