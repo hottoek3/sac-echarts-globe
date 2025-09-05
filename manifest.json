@@ -1,12 +1,20 @@
 {
-	"id": "echarts.globe.example",
+	"id": "echarts.globe.mywidget",
 	"name": "E-charts 지구본 위젯",
-	"description": "E-charts GL 라이브러리를 활용한 간단한 지구본 예제입니다.",
+	"description": "E-charts GL 라이브러리를 활용한 지구본 위젯",
 	"version": "1.0.0",
-	"main": "main.js",
-	"supportsDimensions": true,
-	"supportsMeasures": true,
-	"supportedFeatures": {
-		"customProperties": true
-	}
+	"newInstancePrefix": "EchartsGlobe",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "echarts-globe-mywidget",
+			"url": "main.js",
+			"integrations": [
+				"fiori"
+			]
+		}
+	],
+	"properties": {},
+	"methods": {},
+	"events": {}
 }
