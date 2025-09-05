@@ -3,7 +3,7 @@
     let container = null;
     let isRendered = false;
 
-    // Load E-charts and E-charts GL libraries
+    // Load E-charts and E-charts GL libraries from GitHub CDN
     function loadScripts(callback) {
         if (typeof echarts !== 'undefined' && typeof echartsgl !== 'undefined') {
             callback();
@@ -11,10 +11,10 @@
         }
 
         let script1 = document.createElement('script');
-        script1.src = "./echarts.min.js";
+        script1.src = "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/echarts.min.js";
         script1.onload = () => {
             let script2 = document.createElement('script');
-            script2.src = "./echarts-gl.min.js";
+            script2.src = "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/echarts-gl.min.js";
             script2.onload = callback;
             document.head.appendChild(script2);
         };
@@ -25,7 +25,7 @@
     class EchartsGlobeMywidget extends HTMLElement {
         constructor() {
             super();
-            this.attachShadow({ mode: 'open' }); // 섀도우 DOM 사용
+            this.attachShadow({ mode: 'open' });
             container = document.createElement('div');
             container.style.width = '100%';
             container.style.height = '100%';
