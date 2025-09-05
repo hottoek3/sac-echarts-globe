@@ -1,16 +1,23 @@
 {
   "id": "com.jiwon.echarts.globe",
+  "version": "1.0.0",
   "name": "ECharts Globe",
   "description": "Globe visualization using ECharts-GL",
-  "version": "1.0.0",
   "icon": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/icon.png",
   "contribution": {
-    "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js",
-    "properties": {},
-    "webcomponents": [
+    "widgets": [
       {
-        "tag": "jiwon-echarts-globe",
-        "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js"
+        "id": "EChartsGlobe",
+        "name": "ECharts Globe",
+        "description": "3D Globe with echarts-gl",
+        "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js",
+        "properties": {},
+        "webcomponents": [
+          {
+            "tag": "echarts-globe",
+            "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js"
+          }
+        ]
       }
     ]
   }
