@@ -1,19 +1,12 @@
 {
-  "id": "com.jiwon.echarts.globe",
-  "version": "1.0.0",
-  "name": "ECharts Globe",
-  "description": "Globe visualization using ECharts-GL",
-  "icon": "https://raw.githubusercontent.com/jiwon/sac-echarts-globe/main/icon.png",
-  "contribution": {
-    "newInstancePrefix": "EChartsGlobe",
-    "properties": {},
-    "methods": {},
-    "events": {},
-    "webcomponents": [
-      {
-        "tag": "echarts-globe",
-        "url": "https://raw.githubusercontent.com/jiwon/sac-echarts-globe/main/webcomponent.js"
-      }
-    ]
-  }
+	"id": "echarts.globe.example",
+	"name": "E-charts 지구본 위젯",
+	"description": "E-charts GL 라이브러리를 활용한 간단한 지구본 예제입니다.",
+	"version": "1.0.0",
+	"main": "main.js",
+	"supportsDimensions": true,
+	"supportsMeasures": true,
+	"supportedFeatures": {
+		"customProperties": true
+	}
 }
