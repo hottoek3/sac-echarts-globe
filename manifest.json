@@ -3,17 +3,12 @@
 	"name": "E-charts 지구본 위젯",
 	"description": "E-charts GL 라이브러리를 활용한 지구본 위젯",
 	"version": "1.0.0",
-	"newInstancePrefix": "EchartsGlobe",
-	"webcomponents": [
-		{
-			"kind": "main",
-			"tag": "echarts-globe-mywidget",
-			"url": "main.js",
-			"integrity": "sha256-...",
-			"ignoreIntegrity": true
-		}
-	],
-	"properties": {},
-	"methods": {},
-	"events": {}
+	"requires": {
+		"sap.viz.ext.sap.customwidget": "*"
+	},
+	"url": "main.js",
+	"properties": {
+		"width": { "type": "integer" },
+		"height": { "type": "integer" }
+	}
 }
