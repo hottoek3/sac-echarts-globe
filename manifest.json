@@ -4,6 +4,14 @@
   "description": "Globe visualization using ECharts-GL",
   "version": "1.0.0",
   "icon": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/icon.png",
-  "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js",
-  "ignoreIntegrity": true
+  "contribution": {
+    "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js",
+    "properties": {},
+    "webcomponents": [
+      {
+        "tag": "jiwon-echarts-globe",
+        "url": "https://raw.githubusercontent.com/hottoek3/sac-echarts-globe/main/webcomponent.js"
+      }
+    ]
+  }
 }
