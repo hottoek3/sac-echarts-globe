@@ -3,6 +3,7 @@
     let container = null;
     let isRendered = false;
 
+    // Load E-charts and E-charts GL libraries from GitHub CDN
     function loadScripts(callback) {
         if (typeof echarts !== 'undefined' && typeof echartsgl !== 'undefined') {
             callback();
@@ -20,6 +21,7 @@
         document.head.appendChild(script1);
     }
 
+    // SAC 위젯 클래스 정의
     class EchartsGlobeMywidget extends HTMLElement {
         constructor() {
             super();
@@ -45,6 +47,7 @@
                     myChart = echarts.init(container);
                 }
 
+                // E-charts 지구본 옵션
                 const option = {
                     backgroundColor: '#000',
                     globe: {
